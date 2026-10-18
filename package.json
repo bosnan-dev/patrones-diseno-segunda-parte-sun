@@ -1,0 +1,23 @@
+{
+  "name": "patrones-diseno-segunda-parte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "verificar": "tsc",
+    "decorator:problema": "tsx src/decorator/problema/principal-sin-patron.ts",
+    "decorator": "tsx src/decorator/principal.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
